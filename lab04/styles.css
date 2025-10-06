@@ -1,0 +1,81 @@
+header {
+    align-self: center;
+    background-color: #2770b155; 
+    color: #ff0022; 
+    text-align: center;
+    border-style: outset;
+    width: auto;
+    height: auto;
+}
+
+img {
+  width: 500px; 
+  height: auto;
+}
+
+h3{ 
+    font-family: Arial, sans-serif;
+    text-align: center;
+   font-weight: bolder;
+
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; 
+    text-align: center;
+   font-weight: bold;
+
+}
+
+#svgn{
+    height: 65px;
+    width: auto;
+
+}
+
+#homet{
+color: #000;
+/* or use a different text color, underline, etc. */
+}
+
+#jpegt{
+color: #000;
+/* or use a different text color, underline, etc. */
+}
+
+#gift{
+color: #000;
+/* or use a different text color, underline, etc. */
+}
+
+#pngt{
+color: #000;
+/* or use a different text color, underline, etc. */
+}
+
+
+body {
+
+background-image: url('images/background.png');
+background-repeat: no-repeat;
+background-size: cover;
+/* or use background-repeat: repeat; for a pattern */
+}
+
+a{
+    color: rgb(255, 162, 0);
+    font-weight: 900;
+}
+
+a:hover {
+  color: red;
+}
+
+footer {
+    background-color: #2770b155; 
+    color: #ffffff; 
+    border-style: outset;      
+    width: 100%;        
+
