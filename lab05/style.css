@@ -1,0 +1,80 @@
+header {
+    background-color: #135802; 
+    color: #ffe100; 
+    text-align: center;
+    box-shadow: 0 11px rgba(1, 1, 1, 0.5); 
+
+  
+}
+
+img {
+width: 42px;  
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; 
+    text-align: left;
+   font-weight: bold;
+
+}
+
+#BLOG-POST{
+background-color: #787878;
+}
+
+ul {
+    border: none;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+a{
+    font-size: x-small;
+    color: rgba(255, 0, 0, 0.485);
+    font-weight: 900;
+}
+
+article{
+        text-align: center;
+    color: rgb(5, 0, 152);
+}
+
+main {
+    width: 15%;
+    margin: 20px 0px;
+    box-shadow: 0 15px rgba(0, 0, 0, 0.1); 
+    border: 2px solid #058905;
+    border-radius: 5px;
+    padding:    10px;
+}
+
+
+
+footer {
+    background-color: #135802; 
+    color: #ffffff; 
+    border-style: dotted    ;
+    text-align: center;
+    margin-top: 5px;
+    width: 100%;
+    padding: 3px;
+   margin-right:auto;
+}
+
+#htype5{
+    text-align: center;
+    color: aquamarine;
+}
+
+.test{
+    text-shadow: rgb(0, 0, 0) 0.5px 1px;
+    font-weight: 800;
+    border-bottom: 0ch;
+}
