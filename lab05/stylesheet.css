@@ -13,7 +13,10 @@ p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-
+#referenced {
+font-size: larger;
+    color: #ffe100;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -36,11 +39,7 @@ border-radius: 4px;
 background-color: #058905;
 }
 
-a{
-    font-size: x-small;
-    color: rgba(255, 0, 0, 0.485);
-    font-weight: 900;
-}
+
 
 .test{
     flex: auto;
