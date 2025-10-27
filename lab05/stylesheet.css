@@ -15,7 +15,10 @@ p{
 
 #referenced {
 font-size: larger;
-    color: #ffe100;
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
 }
 
 body {
