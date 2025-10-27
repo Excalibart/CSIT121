@@ -42,7 +42,7 @@ a{
     font-weight: 900;
 }
 
-#Update{
+.test{
     flex: auto;
     text-align: left;
 }
@@ -55,13 +55,16 @@ article{
 }
 
 main {
-    width: 15%;
+    width: 50%;
     margin: 20px 0px;
     box-shadow: 0 15px rgba(0, 0, 0, 0.1); 
     border: 2px solid #058905;
     border-radius: 5px;
     padding:    10px;
+    display: flex;
+    flex-direction: column;
 }
+
 
 
 
