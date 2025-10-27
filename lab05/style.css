@@ -1,5 +1,5 @@
 header {
-    background-color: #135802; 
+    background-color: #1a31b4; 
     color: #ffe100; 
     text-align: center;
     box-shadow: 0 11px rgba(1, 1, 1, 0.5); 
@@ -7,9 +7,7 @@ header {
   
 }
 
-img {
-width: 42px;  
-}
+
 
 p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -25,9 +23,7 @@ body {
 
 }
 
-#BLOG-POST{
-background-color: #787878;
-}
+
 
 ul {
     border: none;
@@ -42,8 +38,10 @@ a{
 }
 
 article{
-        text-align: center;
-    color: rgb(5, 0, 152);
+        text-align: left;
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
 }
 
 main {
