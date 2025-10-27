@@ -31,6 +31,11 @@ ul {
     margin-bottom: 10px;
 }
 
+h2{
+border-radius: 10px solid;
+background-color: #058905;
+}
+
 a{
     font-size: x-small;
     color: rgba(255, 0, 0, 0.485);
