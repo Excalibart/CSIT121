@@ -98,7 +98,7 @@
             const tbl = document.getElementById("id");
             tbl.innerHTML = table;
             tbl.style.display = 'table';
-            if (btn) btn.innerText = 'Hide Employees Details';
+            if (btn) btn.innerText = 'Close Employee Data';
             employeesLoaded = true;
         }
 
@@ -112,10 +112,10 @@
             // Toggle visibility
             if (tbl.style.display === 'none' || tbl.style.display === '') {
                 tbl.style.display = 'table';
-                btn.innerText = 'Hide Employees Details';
+                btn.innerText = 'Close Employee Data';
             } else {
                 tbl.style.display = 'none';
-                btn.innerText = 'Show Employees Details';
+                btn.innerText = 'Get Employee Data';
             }
         }
     </script>
@@ -124,7 +124,7 @@
 <body>
     <center>
         <button type="button" class="button" onclick="toggleEmployees(this)">
-            Show Employees Details
+            Get Employee Data
         </button>
     </center>
 
