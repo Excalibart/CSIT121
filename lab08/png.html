@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,42 +8,53 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="favicon.ico" type="image/svg+xml">
 </head>
+
 <body>
-        <header>
+    <header>
         <h1>Multi Media Types</h1>
         <nav>
-                <a href="index.html">Home,</a>
-                <a href="jpg.html" class="current">JPG Example,</a> 
-                <a id="gift" href="png.html">PNG Example,</a>
-                <a href="gif.html">GIF Example.</a>
+            <div class="topnav" id="myTopnav">
+                <link rel="stylesheet"
+                    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <a href="index.html" >Home</a>
+                <a href="jpg.html">JPEG</a>
+                <a href="png.html" class="active">PNG</a>
+                <a href="gif.html">GIF</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
 
         </nav>
     </header>
     <main>
         <h2>The .PNG Format</h2>
-        
-        <img src="images/IMG_3939.png" 
-             alt="Photo of a boat in fall but unfortunately you wont see this as alt text don work">
-        
+
+        <img src="images/IMG_3939.png"
+            alt="Photo of a boat in fall but unfortunately you wont see this as alt text don work">
+
         <section>
             <h3>About This Image</h3>
             <p>This photograph displays the remains of the Franis Scott Key Bridge. The image was taken on 3/30/24.</p>
         </section>
-        
+
         <section>
             <h3>Why PNG Format?</h3>
-            <p> While not ideal for photographers. PNGS hold all of the data in a lossless compression format, meaning you can edit it multiple times without losing any quality. You get nice perks with PNG, such as support for transparency and 24 bit colors. </p>
+            <p> While not ideal for photographers. PNGS hold all of the data in a lossless compression format, meaning
+                you can edit it multiple times without losing any quality. You get nice perks with PNG, such as support
+                for transparency and 24 bit colors. </p>
         </section>
-        
+
         <div>
             <p>Image source: Original photo by Josh Eney</p>
-            <p>Image source: <a href="https://tigerweb.towson.edu/jeney2/index.html" 
-                  target="_blank">Website Name</a></p>
+            <p>Image source: <a href="https://tigerweb.towson.edu/jeney2/index.html" target="_blank">Website Name</a>
+            </p>
         </div>
     </main>
-    
+
     <footer>
         <p>&copy; 2025 Excalibart - CSIT 121</p>
-    </footer> 
+    </footer>
 </body>
+
 </html>

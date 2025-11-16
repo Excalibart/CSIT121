@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,45 +8,70 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="favicon.ico" type="image/svg+xml">
 </head>
+
 <body>
     <header>
         <h1>Multi Media Types</h1>
         <nav>
-<a  id="homet" href="index.html">Home,</a>
-                <a href="jpg.html" class="current">JPG Example,</a> 
-                <a href="png.html">PNG Example,</a>
-                <a href="gif.html">GIF Example.</a>
+            <div class="topnav" id="myTopnav">
+                <link rel="stylesheet"
+                    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <a href="index.html" class="active">Home</a>
+                <a href="jpg.html">JPEG</a>
+                <a href="png.html">PNG</a>
+                <a href="gif.html">GIF</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
 
         </nav>
     </header>
-    
+
     <main>
         <h2>WELCOME!</h2>
-        
+
         <!-- The actual image info -->
-        <img src="images/svg.svg" 
-             alt="Descriptive text about what's in the image" id="svgn"> 
-        
+        <img src="images/svg.svg" alt="Descriptive text about what's in the image" id="svgn">
+
         <!-- Description section -->
         <section>
             <h3>Images are awesome.</h3>
-            <p>Hello and welcome to my site to help teach about Media Formats. I have provided many examples on a few types of media commonly used around the internet. The one above this text is known as an SVG.</p>
+            <p>Hello and welcome to my site to help teach about Media Formats. I have provided many examples on a few
+                types of media commonly used around the internet. The one above this text is known as an SVG.</p>
         </section>
-        
+
         <!-- Format explanation section -->
         <section>
             <h3>My favorite image type</h3>
-            <p>You may have noticed that bell above the text. That is called an SVG, also known as Scalable Vector Graphics. SVGS Are important because they can be used to draw images without a tank on performance or strain on bandwith. Their file is literally just text being parsed to make up an image."</p>
+            <p>You may have noticed that bell above the text. That is called an SVG, also known as Scalable Vector
+                Graphics. SVGS Are important because they can be used to draw images without a tank on performance or
+                strain on bandwith. Their file is literally just text being parsed to make up an image."</p>
         </section>
-        
+
         <!-- Image source/credit -->
 
     </main>
-    
+
 
     <!-- I took your feedback from the previous time and fixed the footer -->
     <footer>
         <p>&copy; 2025 Excalibart - CSIT 121</p>
-    </footer> 
+    </footer>
+
+
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 </body>
+
 </html>
