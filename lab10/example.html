@@ -42,7 +42,7 @@
             </p>
             <p> &lt;button aria-pressed="false" aria-label="Play video"
                 onclick="togglePlay(this)"&gt;Play&lt;/button&gt;</p> <!-- Well i found the benefit of using unicode instead of the actual sign, I can show off code without freaking the site out. cool. -->
-                <p>Finally, properties are used to define additional information about an element that is not covered by roles or states. They are typically seen as static and mostly used with labels. </p>
+                <p>Finally, properties are used to define additional information about an element that is not covered by roles or states. They are typically seen as static and mostly used with aria-label. Which can be interpreted by screen readers. </p>
         </article>
 
     </main>
@@ -67,13 +67,6 @@
         }
     </script>
 
-    <script>
-        function togglePlay(button) {
-            const pressed = button.getAttribute('aria-pressed') === 'true';
-            button.setAttribute('aria-pressed', !pressed);
-            button.textContent = pressed ? ' Play' : 'Pause';
-        }
-    </script>
 
 
 
