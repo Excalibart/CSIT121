@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aria Examples</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/svg+xml">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <h3>Accessible Rich Internet Applications (WAI-ARIA)</h3>
+                <link rel="stylesheet"
+                    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <a href="index.html ">ARIA</a>
+                <a href="importance.html">IMPORTANCE</a>
+                <a href="example.html" class="active">EXAMPLES</a>
+                <a href="sources.html">SOURCES</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <article>
+            <h1>ARIA Examples</h1>
+            <p>ARIA has a plethora of ways it can be implemented to enhance web accessibility via attributes. The main 3
+                attributes are roles, states, and properties.</p>
+            <p>Roles are used when defining the type of interactive element example being buttons, checkbox, and slider.
+            </p>
+
+            <p>States are used to indicate the current condition/state of an element. Most commonly used by buttons.
+                Below is a state example of a button. 
+            </p>
+            <p> &lt;button aria-pressed="false" aria-label="Play video"
+                onclick="togglePlay(this)"&gt;Play&lt;/button&gt;</p> <!-- Well i found the benefit of using unicode instead of the actual sign, I can show off code without freaking the site out. cool. -->
+                <p></p>
+        </article>
+
+    </main>
+
+
+
+    <footer>
+        <p>&copy; 2025 Excalibart | CSIT 121</p>
+    </footer>
+
+
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+    <script>
+        function togglePlay(button) {
+            const pressed = button.getAttribute('aria-pressed') === 'true';
+            button.setAttribute('aria-pressed', !pressed);
+            button.textContent = pressed ? ' Play' : 'Pause';
+        }
+    </script>
+
+
+
+
+
+</body>
+
+</html>

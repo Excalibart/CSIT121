@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Importance of ARIA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/svg+xml">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <h3>Accessible Rich Internet Applications (WAI-ARIA)</h3>
+                <link rel="stylesheet"
+                    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <a href="index.html">ARIA</a>
+                <a href="importance.html" class="active">IMPORTANCE</a>
+                <a href="example.html">EXAMPLES</a>
+                <a href="sources.html">SOURCES</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h1>Importance of ARIA</h1>
+            <p>WAI-ARIA is extremely important because it makes websites usable for people with disabilities. Approximately 15% of the world population has some sort of disability. That’s around 70 million potential site visitors and we want to be welcoming to all.  ARIA provides additional information to the browser which assistive programs can interpret and communicate to the user in a way specialized to their needs. Most common disabilities include visual impairment, hearing difficulties, motor, and cognitive.  The use of ARIA not only improves the accessibility for those with disabilities, but also helps developers create more inclusive and welcoming websites that are user-friendly. </p>
+        </article>
+    </main>
+
+
+    <!-- Is there any benefit from using unicode than the actual emoji? -->
+    <footer>
+        <p>&copy; 2025 Excalibart | CSIT 121</p>
+    </footer>
+
+
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>

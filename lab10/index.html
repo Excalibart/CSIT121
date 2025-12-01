@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Is ARIA?</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/svg+xml">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <h3>Accessible Rich Internet Applications (WAI-ARIA)</h3>
+                <link rel="stylesheet"
+                    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <a href="index.html" class="active">ARIA</a>
+                <a href="importance.html">IMPORTANCE</a>
+                <a href="example.html">EXAMPLES</a>
+                <a href="sources.html">SOURCES</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <article>
+            <h1>What Is ARIA?</h1>
+            <p>WAI-ARIA is short for Web Accessibility Initiative - Accessible Rich Internet Applications.
+                It is a set of attributes that can be added to HTML with the intent of improving accessibility
+                among users who may have difficulties with viewing, navigating, and interacting with the content by
+                supplying the page with specific flags
+                that change how their computer interprets the roles, states, and behaviors of elements on the page.
+                ARIA initially began development in 2008 by the <a
+                    href="https://www.w3.org/WAI/standards-guidelines/aria/">W3C</a>. It would see its first widespread
+                adoption and recommendation in 2014.</p>
+        </article>
+
+    </main>
+
+
+   
+    <footer>
+        <p>&copy; 2025 Excalibart | CSIT 121</p>
+    </footer>
+
+
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>

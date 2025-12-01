@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sources of ARIA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/svg+xml">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <h3>Accessible Rich Internet Applications (WAI-ARIA)</h3>
+                <link rel="stylesheet"
+                    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <a href="index.html">ARIA</a>
+                <a href="importance.html">IMPORTANCE</a>
+                <a href="example.html">EXAMPLES</a>
+                <a href="sources.html" class="active">SOURCES</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h1>SOURCES</h1>
+            <p>Accessible Rich Internet Applications (WAI-ARIA) 1.1. (2017, December 14). W3.org. <a href="https://www.w3.org/TR/wai-aria/">https://www.w3.org/TR/wai-aria/</a>‌</p>
+            <p>ARIA and HTML. (n.d.). Web.dev. <a href="https://web.dev/learn/accessibility/aria-html">https://web.dev/learn/accessibility/aria-html</a>‌</p>
+            <p>Frontend Highlights. (2024, November 5). A Beginner’s Guide to WAI-ARIA: Making Web Applications Accessible. Medium. <a href="https://medium.com/@ignatovich.dm/a-beginners-guide-to-wai-aria-making-web-applications-accessible-6c29a996e064">https://medium.com/@ignatovich.dm/a-beginners-guide-to-wai-aria-making-web-applications-accessible-6c29a996e064</a>‌</p>
+            <p>Mozilla. (n.d.). ARIA - Accessibility | MDN. Developer.mozilla.org. <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA">https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA</a>‌</p>
+        </article>
+
+    </main>
+
+
+    <!-- Is there any benefit from using unicode than the actual emoji? -->
+    <footer>
+        <p>&copy; 2025 Excalibart | CSIT 121</p>
+    </footer>
+
+
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>
