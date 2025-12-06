@@ -41,6 +41,11 @@ article h1,h2 {
     text-align: center;
 }
 
+h3 {
+    text-align: center;
+    margin-top: 0.75rem;
+}
+
 
 /* It is an absolute miracle this works it looks like genuine crap but hey im not gonna touch it. if it aint not completely broke dont fix it */
 section, form {
