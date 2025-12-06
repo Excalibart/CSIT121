@@ -29,9 +29,28 @@ article p {
     text-align: left;
 }
 
+article img {
+    max-width: 320px;
+    width: 35%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    object-fit: cover;
+}
+
+/* Took longer than id like to admit to figure out */
+article img {
+    max-width: 520px;
+    width: 55%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 1rem auto;
+}
+
 article h1,h2 {
     background: #9EDEC3;
-    color: #000000;
+    color: hsl(0, 0%, 0%);
     border: 1px solid;
     box-shadow: 0 6px 18px rgba(0,0,0,0.1);
     padding: 1rem 1.25rem;
@@ -40,6 +59,7 @@ article h1,h2 {
     border-radius: 8px;
     text-align: center;
 }
+
 
 h3 {
     text-align: center;
