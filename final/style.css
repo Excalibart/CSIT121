@@ -1,0 +1,166 @@
+
+/*OK DO NOT FORGET TO USE THE HEX COLOR PALETE. 
+im using the #244A73 AND #9EDEC3 FROM Final Project - Brand & Wireframe Sketch Sheet */
+
+/* Hi Professor I hope you enjoy reading my struggles developing this website*/
+
+/* This shouldChecks off the need for column layout in rubric*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('images/background.webp');
+    background-size: cover; /*Shout out to https://www.w3schools.com/cssref/css3_pr_background-size.php for help with da documentation*/
+}
+
+
+
+article p {
+    background: #ffffffeb;
+    color: #222;
+    border: 1px solid;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    padding: 1rem 1.25rem;
+    margin: 1rem auto;
+    max-width: 500px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+article h1,h2 {
+    background: #9EDEC3;
+    color: #000000;
+    border: 1px solid;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    padding: 1rem 1.25rem;
+    margin: 1rem auto;
+    max-width: 350px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+/* It is an absolute miracle this works it looks like genuine crap but hey im not gonna touch it. if it aint not completely broke dont fix it */
+section, form {
+    background: #ffffffeb;
+    color: #222;
+    border: 1px solid;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    padding: 1rem 1.25rem;
+    margin: 1rem auto;
+    max-width: 500px;
+
+}
+
+nav {
+    background-color: #244A73   ; /* Ok so slighht issue, background has same color as logo. soooo im just gonna edit the logo to a different color*/
+    padding: 1rem 0;
+}
+
+/* I feel really supid because I only just NOW actually realized 
+you could specify stuff within the tags. like as in nav -> whatevers inside it.
+That would have saved me a LOT of debugging on the previous labs.*/
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none; /* I remember you said something bad about this in class but it was auto tabbed in soo im just gonnna leave it there.*/
+    padding: 0.5rem 1rem;
+}  
+
+nav a:hover {
+    color: #9EDEC3;
+    font-weight: bold;
+}
+
+#active {
+    background-color: #9EDEC3;
+    color: #244A73;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#logo {
+    height: 90px; /* maybe im just stupid but i thin i broke this */ 
+    width: auto;
+    vertical-align: middle;
+}
+
+footer {
+    background-color: #244A73; 
+    color: #ffffff; 
+    width: 100%;
+    text-align: center;
+    padding: 0.75rem 0;
+    margin-top: auto;
+}
+
+
+
+
+
+/* todo implement @media querie (I hate doing this) */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+    #logo { 
+        height: 60px; 
+    }
+
+
+
+
+#welcomesplashscreen {
+    width: 100%;
+    display: flex;
+    outline-color: #ffffff;
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 1rem; 
+
+
+}
+
+#testt { text-align: center; margin-top: 0.75rem; }
+
+#button {
+    display: inline-block;
+    background: #244A73;
+    color: #9EDEC3;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Small warning/notice styles */
+#warn2 {
+    max-width: 880px;
+    margin: 0.5rem auto;
+}
+
+#warn {
+    background: rgba(255, 225, 143, 0.95);
+    color: #e70000;
+    border: 1px solid rgb(255, 0, 0);
+}
+
+.notice strong { margin-right: 0.35rem; }
+
+
+
+
+
+    
